@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="first-box">
+        <div id="logo">Health check</div>
+    </header>
+    <div class="container">
+        <h3>BMI (Body Mass Index)</h3>
+        <p>BMI provides a simple numeric measure of a person's thickness or thinness, allowing health professionals to discuss weight problems more objectively with their patients. BMI was designed to be used as a simple means of classifying average sedentary (physically inactive) populations, with an average body composition.</p>
+    </div>
+    <div class="BMI-box">
+        <h4>Check Yourself</h4>
+        <div class="height "> Height
+            <input type="number" placeholder="In Cms" id="metre" required min="31" max="242">
+        </div>
+        <div class="weight">Weight
+            <input type="number" placeholder="In Kgs" id="newton" required min="1.4" max="634">
+        </div>
+        <div class="button">
+            <button id="btn">Check</button>
+        </div>
+        <div class="result">
+
+            <span id="output-1"></span>
+            <span id="output-2"></span>
+            <span id="output-3"></span>
+            <span id="output-4"></span>
+            <span id="output-5"></span>
+        </div>
+            
+    </div>
+    <!-- <div class="status">
+       <strong> Health Status</strong> >><input type="text" id="status">
+    </div> -->
+    <script src="app.js"></script>
+</body>
+</html>
